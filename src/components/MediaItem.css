@@ -1,0 +1,68 @@
+.media-card {
+    background: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.media-content {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-height: 500px;
+    object-fit: contain;
+    background: #fafafa;
+}
+
+.media-details {
+    padding: 1rem;
+}
+
+.media-caption {
+    margin: 0 0 0.5rem 0;
+    color: #262626;
+    line-height: 1.4;
+}
+
+.media-date {
+    margin: 0 0 1rem 0;
+    color: #8e8e8e;
+    font-size: 0.8rem;
+}
+
+.media-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.comments-toggle {
+    background: none;
+    border: none;
+    color: #0095f6;
+    font-weight: 600;
+    padding: 0.3rem 0;
+}
+
+.comments-toggle:hover {
+    text-decoration: underline;
+}
+
+.view-on-ig {
+    font-size: 0.9rem;
+}
+
+.comments-section {
+    margin-top: 1rem;
+    border-top: 1px solid #efefef;
+    padding-top: 1rem;
+}
+
+.no-comments {
+    color: #8e8e8e;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 1rem 0;
+}
